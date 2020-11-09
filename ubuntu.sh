@@ -15,6 +15,10 @@ rm $HOME/.vimrc
 wget -O $HOME/.vimrc https://raw.githubusercontent.com/scsven/vimrc/master/.vimrc
 wget -O $HOME/.vimrc_vundle https://raw.githubusercontent.com/scsven/vimrc/master/.vimrc_vundle
 
+# CtrlP
+cd ~/.vim
+git clone https://github.com/kien/ctrlp.vim.git bundle/ctrlp.vim
+
 
 # Install manually
 
